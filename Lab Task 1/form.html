@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style=background-color:whitesmoke>
+    <p><sup  style="color: red">*</sup>- Donets Required Information</p>
+    <p> <b>>1 Donation</b> &emsp; >2 Confirmation &emsp; >Thank you! </p>
+    <b style="color: red">Donor Information</b>
+    
+    <form>
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;First name <sup  style="color: red">*</sup> </b><input type="text" name="textbox1"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Last name <sup  style="color: red">*</sup></b> <input type="text" name="textbox2"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Company <sup  style="color: red">*</sup></b>&ensp;<input type="text" name="textbox3"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Address 1 <sup style="color: red">*</sup></b> <input type="text" name="textbox4"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Address 2</b>&emsp;<input type="text" name="textbox5"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&ensp;City <sup style="color: red">*</sup></b>&ensp; <input type="text" name="textbox6"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;State <sup style="color: red">*</sup></b> 
+        <select name="State" id="1">
+            <option value="" selected disabled hidden>Select a State</option>
+            <option value="1">Dhaka</option>
+            <option value="2">Leipzig</option>
+            <option value="3">Los angeles</option>
+            <option value="4">Basel</option>
+            <option value="5">Kolkata</option>
+            <option value="6">paris</option>
+            <option value="7">Manchester</option>
+            <option value="8">Victoria</option>
+            <option value="9">Newcastle</option>
+            <option value="10">Milan</option>
+        </select> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Zip code <sup style="color: red">*</sup></b> <input type="text" name="textbox7"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Country<sup style="color: red">*</sup></b>&ensp;
+        <select name="Country" id="2">
+            <option value="" selected disabled hidden>Select a Country</option>
+            <option value="1">Bangladesh</option>
+            <option value="2">Germany</option>
+            <option value="3">USA</option>
+            <option value="4">switzerland</option>
+            <option value="5">India</option>
+            <option value="6">France</option>
+            <option value="7">England</option>
+            <option value="8">Canada</option>
+            <option value="9">Austrelia</option>
+            <option value="10">Italy</option>
+        </select> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Phone <sup  style="color: red">*</sup></b>&ensp; <input type="text" name="textbox8"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Fax <sup  style="color: red">*</sup></b>&emsp; <input type="text" name="textbox9"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Email <sup  style="color: red">*</sup></b>&ensp; <input type="text" name="textbox10"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;Donation Amount<sup  style="color: red">*</sup></b> <input type="radio" name="Amount" value="None" checked="None"> None
+        <input type="radio" name="Amount" value="price">$50
+        <input type="radio" name="Amount" value="price">$75
+        <input type="radio" name="Amount" value="price">$100
+        <input type="radio" name="Amount" value="price">$250
+        <input type="radio" name="Amount" value="price">Other <br>&ensp;
+        &emsp;&emsp;(Check a button or type in <br>&emsp;&emsp;&emsp;&emsp;your amount)&emsp;&emsp;&emsp;&emsp; <b>Other Amount</b>&ensp;$ <input type="text" name="textbox6"> <br> <br>
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;Recurring Donation</b><input type="checkbox" name="c1" value="yesorno"> I am interested in giving on a regular basis. <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(check if yes) <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Monthly Credit Card $ <input type="text" id="txt" name="txt" size="5">&ensp;For <input type="text" id="txt" name="txt" size="5">&ensp;Months <br>
+        
+        <b style="color: red">Honorarium and Memorial Donation Information</b> <br>
+        <b>&emsp;&emsp;&emsp;&ensp;I would like to make this <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;donation</b> <input type="radio" name="Amount" value="txt"> To Honor <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="radio" name="Amount" value="txt"> In Memory Of <br> <br>
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Name </b> <input type="text" name="textbox1"> <br> <br> 
+        
+        <b>&emsp;&emsp;&emsp;Acknowledge Donation to </b> <input type="text" name="textbox2"> <br> <br> 
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Address</b> <input type="text" name="textbox3"> <br> <br> 
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;City</b>&emsp; <input type="text" name="textbox4"> <br> <br> 
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;State</b> 
+        <select name="State" id="1">
+            <option value="" selected disabled hidden>Select a State</option>
+            <option value="1">Dhaka</option>
+            <option value="2">Leipzig</option>
+            <option value="3">Los angeles</option>
+            <option value="4">Basel</option>
+            <option value="5">Kolkata</option>
+            <option value="6">paris</option>
+            <option value="7">Manchester</option>
+            <option value="8">Victoria</option>
+            <option value="9">Newcastle</option>
+            <option value="10">Milan</option>
+        </select> <br> <br> 
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Zip</b> <input type="text" name="textbox4"> <br> <br> 
+        <b style="color: red">Additional Information </b> <br>
+        Please enter your name,company or organization as you would like it to appear in our publications:  <br>
+        <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Name </b> <input type="text" name="textbox1"> <br> <br>
+         <input type="checkbox" name="c1" value="c1"> I would like my gift to remain anonymous. <br>
+         <input type="checkbox" name="c2" value="c2"> My employer offers a matching gift program. I will mail the matching gift form. <br>
+         <input type="checkbox" name="c3" value="c3"> Please save the cost of acknoledging this gift by not mailing a thank you letter. <br> <br>
+         <b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Comments </b><textarea  style="vertical-align: top"name="txtarea" id="txt" cols="40" rows="4"></textarea><br> <br>
+         <b>&emsp;&emsp;&emsp;&emsp;&ensp;How may we contact you? </b> <input type="checkbox" name="c1" value="c1"> E-mail <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox"name="c2" value="c2">Postal Mail <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox"name="c3" value="c3">Telephone <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox"name="c4" value="c4">Fax <br> I would like to recieve newsletters and information about special events by: <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox"name="c5" value="c5">E-mail <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox"name="c6" value="c6">Postal mail <br> <input type="checkbox"name="c6" value="c6"> I would like information about volunteering with the <br><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <button type="button" onclick="alert('Load')">Reset</button>
+         <button type="button" onclick="alert('want to stay?')">Continue</button> <br>
+         <i class="fa fa-lock"></i> Donate online with confidence. You are on a secure server. <br>
+         If you have any problem or question please contact support.
+         
+    </form>
+</body>
+</html>
